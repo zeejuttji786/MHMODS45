@@ -5,7 +5,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923184474176"
+global.devs = "923493995641"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
@@ -25,7 +25,7 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544f
 
 
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923493995641";
 
 module.exports = {
 
@@ -39,10 +39,10 @@ module.exports = {
   caption:process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
 
  
-  author: process.env.PACK_AUTHER || "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author: process.env.PACK_AUTHER || "Zeeshan-MD",
+  packname: process.env.PACK_NAME || "Zeeshan",
+  botname : process.env.BOT_NAME  || "Zeshan-ᴍᴅ",
+  ownername:process.env.OWNER_NAME|| "It'x zeeshan jutt",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -60,8 +60,8 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
-  save_status: process.env.AUTO_SAVE_STATUS || "false",
+  read_status: process.env.AUTO_READ_STATUS || "true",
+  save_status: process.env.AUTO_SAVE_STATUS || "true",
 
 
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
@@ -71,8 +71,8 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
 
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ZEESHAN",
 
 };
 
